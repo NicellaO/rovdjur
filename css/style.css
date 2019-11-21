@@ -1,1 +1,46 @@
-/* Denna fil skall innehålla din CSS kod */
+
+
+#container {
+    display: grid;
+    height: 100vh;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+    'nav'
+    'hd'
+    'mn'
+    'ass'
+    'ft'
+
+}
+
+nav{
+grid-area: nav;
+background-color:#CAD2C5;
+border-radius: 5px;
+
+}
+
+header{ 
+    grid-area: hd;
+    background-color:#84A98C;
+    border-radius: 5px;
+}
+
+main {
+    grid-area: mn;
+    background-color: #52796F;
+    border-radius: 5px;
+}
+
+aside {
+    grid-area: ass;
+    background-color: #354F52;
+    border-radius: 5px;
+}
+
+footer {
+    grid-area: ft;
+    background-color: #2F3E46;
+    border-radius: 5px;
+}
