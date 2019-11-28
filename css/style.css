@@ -2,12 +2,12 @@
 
 #container {
     display: grid;
-    
-    height: 100vh;
+    width: 100vw;
+    margin: 0%;
     grid-column-gap: 5px;
     grid-row-gap: 10px;
     grid-template-areas: 
-    'nav'
+    'nav '
     'hd'
     'mn'
     'ass'
@@ -17,16 +17,26 @@
 
 nav{
 grid-area: nav;
-background-color:#CAD2C5;
-border-radius: 5px;
-border : solid 1px rgb(119, 119, 119);
+background-color:rgb(255, 255, 255);
+border-radius: 2px;
+border : solid 1px rgb(36, 24, 10);
+width: 500px;
+text-align: center;
 
+}
+
+h1{
+    background-color: black;
+    width:300px;
 }
 
 header{ 
     grid-area: hd;
     background-color:#52796F;
     border-radius: 5px;
+    background-image: url("../img/forest.jpeg");
+    background-size: 1000px;
+    
 }
 
 #foodc {
@@ -40,14 +50,31 @@ main {
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
     color: rgb(70, 70, 70);
+    padding: 5px;
+    text-align: center;
     
 }
 
 aside {
+    color: 
     grid-area: ass;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    color: rgb(0, 0, 0);
+   
+}
+
+h2 {
+    color : rgb(70, 70, 70);
+}
+
+#bbear {
+    width: 230px;
+    height: auto;
+}
+
+#wolv {
+    width: 250px;
+    height: auto;
 }
 
 footer {
