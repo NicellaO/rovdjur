@@ -1,4 +1,58 @@
 
+#containerr {
+    display: grid;
+    width: 100vw;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    grid-template-areas: 
+    'hdd'
+    'ass'
+    'mnn'
+    'ftt'
+}
+
+#hemmah{ 
+    grid-area: hdd;
+    background-color:#52796F;
+    background-image: url("../img/forest.jpeg");
+    background-size: 100%;
+    width: auto;
+    height: 200px;
+
+
+    
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    text
+}
+
+#mitten {
+    grid-area: mnn;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(70, 70, 70);
+    padding: 5px;
+    text-align: center;
+
+}
+
+#vidsida {
+    grid-area: ass;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+#nere {
+    grid-area: ftt;
+    background-color: #354F52;
+    border-radius: 5px;
+    color: white;
+}
+
+
 
 #container {
     display: grid;
@@ -9,7 +63,7 @@
     'nav '
     'hd'
     'mn'
-    'ass'
+    'as'
     'ft'
 
 }
@@ -19,9 +73,8 @@ grid-area: nav;
 background-color:rgb(255, 255, 255);
 border-radius: 2px;
 border : solid 1px rgb(36, 24, 10);
-width: 500px;
+width: 200px;
 text-align: center;
-
 }
 
 h1{
@@ -34,7 +87,8 @@ header{
     background-color:#52796F;
     border-radius: 5px;
     background-image: url("../img/forest.jpeg");
-    background-size: 1000px;
+    background-size: 70%;
+
     
 }
 
@@ -55,27 +109,18 @@ main {
 }
 
 aside {
-    color: 
-    grid-area: ass;
+    grid-area: as;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
+
+
    
 }
 
 h2 {
     color : rgb(70, 70, 70);
 }
-
-#bbear {
-    width: 230px;
-    height: auto;
-}
-
-#wolv {
-    width: 250px;
-    height: auto;
-}
-
+   
 footer {
     grid-area: ft;
     background-color: #354F52;
@@ -89,18 +134,68 @@ h1 {
     color : rgb(255, 255, 255);
 
 }
+
 #varg {
     margin: auto;
     height: auto;
-    width: 60%;
+    width: 50%;
     display:block;
     border-radius: 4px;
     border : solid 1px rgb(255, 255, 255);
    
 }
 
-#del {
-    color: white;
+#vargg {
+    margin: auto;
+    height: auto;
+    width: 15%;
+    display:block;
+    border-radius: 4px;
+    border : solid 1px rgb(255, 255, 255);
+    float: left;
+   
 }
+
+#bbear {
+    margin: auto;
+    height: auto;
+    width: 50%;
+    display:block;
+    border-radius: 4px;
+    border : solid 1px rgb(255, 255, 255);
+}
+
+#bbearr {
+    margin: auto;
+    height: auto;
+    width: 15%;
+    display:block;
+    border-radius: 4px;
+    border : solid 1px rgb(255, 255, 255);
+    float: left;
+}
+
+#wolv {
+
+    margin: auto;
+    height: auto;
+    width: 50%;
+    display:block;
+    border-radius: 4px;
+    border : solid 1px rgb(255, 255, 255);
+   
+}
+
+#wolvv {
+
+    margin: auto;
+    height: auto;
+    width: 15%;
+    display:block;
+    border-radius: 4px;
+    border : solid 1px rgb(255, 255, 255);
+    float: left;
+}
+
 
 
