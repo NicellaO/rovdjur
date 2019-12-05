@@ -10,3 +10,6 @@ Gjorde jag klart skisserna, valde färgtema och dubbellkolla skisserna för att 
 Lektion 4 : Hitta fakta om djuren som finns på sidan
 
 Lektion : 
+
+Övrig jobb hemma :
+Kollat på insprations videos.

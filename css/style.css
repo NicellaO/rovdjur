@@ -6,27 +6,56 @@
     grid-row-gap: 10px;
     grid-template-areas: 
     'hdd'
-    'ass'
+    'nv'
     'mnn'
+    'ass'
     'ftt'
+}
+
+#containe {
+    display: grid;
+    width:75%;
+    height:200px;
+    margin:auto;
+    grid-template-areas:
+    'sc1';
+    border: solid 3px #3301;
+}
+
+#sok {
+    width: 50%;
+}
+
+#hemn {
+    grid-area: nv;
+    width: auto;
+    text-align: left;
+    background-color: rgb(49, 49, 49) ;
+    height: 130%;
+}
+
+#hemk {
+    text-align: left;
 }
 
 #hemmah{ 
     grid-area: hdd;
-    background-color:#52796F;
     background-image: url("../img/forest.jpeg");
-    background-size: 100%;
+    background-size: 70%;
     width: auto;
     height: 200px;
-
-
     
+}
+
+#mark {
+    height: auto;
+    width: 150px;
+    padding: 5px;
 }
 
 h5 {
     text-align: center;
     color: white;
-    text
 }
 
 #mitten {
@@ -78,8 +107,15 @@ text-align: center;
 }
 
 h1{
-    background-color: black;
+    background-color: rgb(77, 77, 77);
     width:30%;
+}
+
+
+#foodc {
+    border-radius: 5px;
+    color: rgb(70, 70, 70);
+
 }
 
 header{ 
@@ -90,12 +126,6 @@ header{
     background-size: 70%;
 
     
-}
-
-#foodc {
-    border-radius: 5px;
-    color: rgb(70, 70, 70);
-
 }
 
 main {
@@ -112,9 +142,6 @@ aside {
     grid-area: as;
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-
-
-   
 }
 
 h2 {
@@ -129,9 +156,10 @@ footer {
 }
 
 h1 {
-
     text-align: center;
     color : rgb(255, 255, 255);
+    width: 100%;
+    font-size: 150%;
 
 }
 
@@ -166,13 +194,13 @@ h1 {
 }
 
 #bbearr {
-    margin: auto;
+ 
     height: auto;
     width: 15%;
     display:block;
     border-radius: 4px;
     border : solid 1px rgb(255, 255, 255);
-    float: left;
+    
 }
 
 #wolv {
@@ -183,7 +211,7 @@ h1 {
     display:block;
     border-radius: 4px;
     border : solid 1px rgb(255, 255, 255);
-   
+
 }
 
 #wolvv {
