@@ -12,4 +12,4 @@ Lektion 4 : Hitta fakta om djuren som finns på sidan
 Lektion : 
 
 Övrig jobb hemma :
-Kollat på insprations videos.
+byggt upp sidorna, små justeringar

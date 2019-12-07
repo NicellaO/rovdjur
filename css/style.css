@@ -1,7 +1,7 @@
 
 #containerr {
     display: grid;
-    width: 100vw;
+    width: auto;
     grid-column-gap: 5px;
     grid-row-gap: 10px;
     grid-template-areas: 
@@ -124,7 +124,6 @@ header{
     border-radius: 5px;
     background-image: url("../img/forest.jpeg");
     background-size: 70%;
-
     
 }
 
@@ -135,7 +134,6 @@ main {
     color: rgb(70, 70, 70);
     padding: 5px;
     text-align: center;
-    
 }
 
 aside {
@@ -159,8 +157,7 @@ h1 {
     text-align: center;
     color : rgb(255, 255, 255);
     width: 100%;
-    font-size: 150%;
-
+    font-size: 160%;
 }
 
 #varg {
@@ -187,7 +184,7 @@ h1 {
     margin: auto;
     height: auto;
     width: 50%;
-    display:inline;
+    display:block;
     border-radius: 4px;
     border : solid 1px rgb(255, 255, 255);
 }
@@ -207,7 +204,7 @@ h1 {
     margin: auto;
     height: auto;
     width: 50%;
-    display:inline;
+    display:block;
     border-radius: 4px;
     border : solid 1px rgb(255, 255, 255);
 
