@@ -14,3 +14,7 @@ Lektion 4: Samma sak som på lektion 3.
 Övrig jobb hemma :
 Kollat på inspirations videos.
 Inprincip gjort samma saker som underl lektionerna men försökt förstå mer
+
+Notis :
+
+I min css fil står det att det är 6 fel som behövs rättas till. Dock när jag försökte rätta till problemen såg det konstigt ut på webbsidan.

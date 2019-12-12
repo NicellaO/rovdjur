@@ -132,7 +132,6 @@ header{
 main {
     grid-area: mn;
     background-color: rgb(255, 255, 255);
-    border-radius: 5px;
     color: rgb(70, 70, 70);
     padding: 5px;
     text-align: center;
