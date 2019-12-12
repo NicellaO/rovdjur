@@ -13,18 +13,20 @@
 }
 
 #containe {
-    display: grid;
-    width:75%;
-    height:200px;
-    margin:auto;
-    grid-template-areas:
-    'sc1';
-    border: solid 3px #3301;
+   position: relative;
 }
 
 #sok {
-    width: 40%;
+    display: block;
+    height: 40%;
+    text-align: right;
 }
+
+.knappar {
+    width: auto;
+    height: 30%;
+}
+
 
 #hemn {
     grid-area: nv;
@@ -50,7 +52,7 @@
 #mark {
     height: auto;
     width: 150px;
-    padding: 5px;
+    padding: 20px;
 }
 
 h5 {
@@ -220,5 +222,7 @@ h1 {
     border : solid 1px rgb(255, 255, 255);
 }
 
-
-
+input {
+    position: absolute;
+    right:50px;
+}
